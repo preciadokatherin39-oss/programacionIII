@@ -33,7 +33,7 @@ public class Libro {
         
           return "Libro{ Titulo" + Titulo+ " Precio " + Precio+ " Autor " + Autor + "}";
     }
-        public void precio(Libros[]Libros){
+        public void precio(Libro[]Libros){
             double total =0.0;
         for(int i=0; i< Libros.length;i++){
             if(Libros)[i].getPrecio().equals(libros){
